@@ -1,0 +1,29 @@
+// Calculate the BigO Notation Step-by-step: 
+
+function funChallenge(input) {
+  let a = 10;
+  a = 50 + 3;
+
+  for (let i = 0; i < input.length; i++) {
+    anotherFunction();
+    let stranger = true;
+    a++;
+  }
+  return a;
+}
+
+//Answer 
+
+function funChallenge(input) {
+  let a = 10; // O(1) Runs once
+  a = 50 + 3; // O(1) Runs once
+
+  for (let i = 0; i < input.length; i++) { // O(n) Runs as many times the loop condition permits
+    anotherFunction();                    // O(n) Runs as many times the loop condition permits
+    let stranger = true;                  // O(n) Runs as many times the loop condition permits
+    a++;                                  // O(n) Runs as many times the loop condition permits
+  }
+  return a; // O(1)
+}
+/* Final answer: Big O(3+ 4n)
+    
