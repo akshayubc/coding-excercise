@@ -1,2 +1,7 @@
 # coding-excercise
-Excercises
+Excercises for interview 
+
+<b>Topics Covered<b>
+  - BigO
+  - Data Structures
+  - 
