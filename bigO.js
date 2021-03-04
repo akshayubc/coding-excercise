@@ -25,7 +25,7 @@ function funChallenge(input) {
   }
   return a; // O(1)
 }
-/* Final answer: Big O(3+ 4n)
+/* Final answer: Big O(3+ 4n) => O(n)
 _______________________________________________________________________________
 // What is the Big O of the below function? (Hint, you may want to go line by line)
 function anotherFunChallenge(input) {
@@ -63,6 +63,41 @@ function anotherFunChallenge(input) {
   }
   let whoAmI = "I don't know"; // O(1)
 }
-// Final Answer: Big O(4+7n) 
+// Final Answer: Big O(4+7n) => O(n)
 //Note: Function loop statements can be counted or ignored. As a result, alternate way would render the answer Big o(4 + 5n)
 _______________________________________________________________________________
+//#5 
+function boooo(n) {
+    for (let i = 0; i < n; i++) {
+        console.log('booooo');
+    }
+}
+//Answer
+function boooo(n) {
+    for (let i = 0; i < n; i++) {
+        console.log('booooo');
+    }
+}
+Final: Space complexity => O(1)
+
+// #6 
+function arrayOfHiNTimes(n) {
+    var hiArray = [];
+    for (let i = 0; i < n; i++) {
+        hiArray[i] = 'hi';
+    }
+    return hiArray;
+}
+
+arrayOfHiNTimes(6)
+
+//Answer: 
+function arrayOfHiNTimes(n) {
+    var hiArray = [];
+    for (let i = 0; i < n; i++) {
+        hiArray[i] = 'hi';
+    }
+    return hiArray;
+}
+Space complexity O(n)
+
